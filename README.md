@@ -1,0 +1,2 @@
+# Online-Library-Management-System
+Online-Library-Management-System refers as eLibrary. It is online Bangla and English books, magazines and newspapers reading library. You can read all books, newspapers, magazines by pdf view. We've got a large Bengali and English ebook, emagazine collection for all of you. Visit our site regularly to read your desire Bangla and English Books, Magazines and Newspapers.
