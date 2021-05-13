@@ -1,0 +1,187 @@
+.rateMe
+{
+	font-size: 24px;
+	letter-spacing: 6px;
+	color: red;
+}
+.book-container {
+	margin-left: 18px;
+	margin-top: 14px;
+	margin-bottom: 10px;
+	width: 169px;
+	height: 242px;
+	display: inline-block;
+	position: relative;
+	border: 1px solid black;
+}
+.book-rated{
+
+	direction: rtl;
+}
+
+.book-rated > span {
+	width: 1.1em;
+}
+
+
+.book-rated > span:hover:before,
+.book-rated > span:hover ~ span:before 
+{
+	cursor: pointer;
+	content: "\2605";
+	position: absolute;
+} 
+
+.book-writer-name
+{
+	background-color: #ffc2b3;
+	margin-top: 0px;
+	padding-top: 10px;
+	height: 190px;
+	width: 169px;
+	display: none;
+	opacity: 0.8;
+}
+
+.book-container:hover .book-writer-name
+{
+
+	cursor: pointer;
+	position:absolute;
+	display: inline-block;
+}
+
+.book-read-pdf-btn
+{
+	background-color:#bf004f;
+	padding: 2px 26px;
+	border: none;
+	font-size: 16px;
+	margin-left: 4px;
+}
+
+.footer-books
+{
+	background-color:#EDEDF0;
+	height: 365px;
+	margin-top: 32px;
+	display: block;
+	position: relative;
+}
+.bangla-book{
+	margin-top: 23px;
+	margin-left: 24px;
+	margin-right: 50px;
+	padding: 3px;
+	background-color:
+	rgb(89, 235, 128);
+	font-size: 19px;
+	width: 780px;
+}
+
+.all-books
+{
+	display: inline-block;
+	position: relative;
+	background-color:rgb(89, 235, 128);
+	margin-top: 23px;
+	margin-left: 0px;
+	padding: 5px;
+	width: 237px;
+	text-align: center
+}
+
+
+.bangla-novel-book-container
+{
+	margin-top:-12px;
+	margin-bottom: 50px;
+	margin-left:24px;
+	margin-right:50px;
+	background-color:#EDEDF0;
+	height: 540px;
+	width: 785px;
+	display: inline-block;
+	position: relative;
+}
+
+.side-navbar{
+	display: block;
+	position: relative;
+	margin-top: 7px;
+	margin-left: 0px;
+	width: 247px;
+	height: 171px;
+	
+}
+
+.side-navbar-ul{
+	display: block !important;
+	list-style-type: none;
+	text-decoration:  none;
+	margin-left: 0px;
+	margin-top: 0px;
+	background-color:#EDEDF0 ;
+}
+
+.underline-li
+{
+	border-bottom: 1px solid black;
+	width: 217px;
+	margin-left: -40px;
+	font-size: 15px;
+}
+.underline-li:hover
+{
+	background-color:#80ccff;
+}
+.li-selected
+{
+	background-color:#80ccff;
+}
+.li-font
+{
+	font-size: 15px;
+}
+
+#main-box
+{
+	width: auto;
+	background-color: white;
+	height: 1200px;
+}
+
+#left-box
+{
+	width: 810px;
+	height: 1371px;
+	background-color:white;
+	display: inline-block;
+	position: absolute;
+	margin-top: 0px;
+
+}
+#right-box
+{   margin-left: 830px;
+	margin-top: -1001px;
+	width: 248px;
+	height:1371px;
+	background-color:white;
+	display: inline-block;
+	position: sticky;
+
+}
+.next-btn
+{
+background-color:rgb(89, 235, 128);
+border: none;
+color:white;
+padding: 6px 17px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin-left: 25px;
+margin-top: -16px;
+cursor: pointer;
+}

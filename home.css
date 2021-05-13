@@ -1,0 +1,325 @@
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+  z-index: 2;
+  cursor: pointer;
+}
+
+/*login class start*/
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+.login-container
+{
+height: 437px;
+width: 325px;
+background-color:white;
+margin-top: 112px;
+margin-left: 515px;
+}
+
+.img-container {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+img.login-img{
+  width: 40%;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+
+.form-container
+{
+  padding: 16px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 6px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.log-btn
+{
+   background-color: #4CAF50;
+  color: white;
+  padding: 8px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+.log-btn:hover
+{
+  background-color: #f44336;
+
+}
+.cancel-btn:hover
+{
+   opacity: 0.8;
+}
+
+.cancel-btn{
+  width: auto;
+  padding: 8px 18px;
+  background-color: #f44336;
+  border: none;
+  cursor: pointer;
+}
+
+span.password
+{
+    float: right;
+  padding-top: 6px;
+}
+
+.login-btn
+{
+  background-color: rgb(89, 235, 128);
+  border: none;
+  font-size: 18px;
+  padding: 7px 11px;
+  border-radius: 8px;
+}
+
+.login-btn:hover{
+  background-color: #fffdd0;
+  cursor: pointer;
+}
+
+/*login class end*/
+
+body
+{
+	/*background-color: #fffdd0;*/
+  background-image: url("bg.png");
+  background-repeat: repeat;
+  margin-left: 125px;
+  margin-right:125px;
+}
+/*start footer class*/
+.footer
+{
+  background-color:#EDEDF0;
+  height:365px;
+}
+.partition1
+{
+  margin-left: 60px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  width:360px;
+  height:275px;
+  display: inline-block;
+  position:relative;
+}
+.partition2
+{
+  margin-left: 110px;
+  margin-top: 73px;
+  margin-bottom: 10px;
+  width:260px;
+  height:275px;
+  display: inline-block;
+  position:relative;
+}
+.partition3
+{
+ margin-left: 40px;
+ margin-top: 73px;
+ margin-bottom: 10px;
+ width:260px;
+ height:275px;
+ display: inline-block;
+ position:relative;
+}
+
+/*stop footer class*/
+
+.elib{
+  padding-left: 20px;
+  letter-spacing: 2px;
+  font-size: 28px;
+  font-family: courier;
+
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+
+}
+
+
+.navbar-top
+{
+	background-color: rgb(89, 235, 128);
+	overflow: hidden;
+	margin-top: -26px;
+  top: 0;
+  transition: top 0.3s;
+}
+
+.navtop,li
+{
+ list-style-type: none;
+ position: sticky;
+ display: inline-block;
+ margin:0px -13px;
+ padding: 5px 15px;
+
+}
+.navtop,a{
+ text-decoration:  none;
+ font-size: 18px;
+ color: black;
+ padding: 8px;
+ border-radius: 8px;
+}
+
+
+
+.nav-context2{
+  margin-left: 147px;
+  padding-left: 195px;
+  font-family: courier;
+
+}
+
+.notification{
+  padding-left: 15px;
+  margin-left: 2px;
+}
+
+
+
+.text-field
+{
+ padding: 10px 16px;
+ border:none;
+ border-radius: 5px;
+}
+.nav-btn{
+	margin-left:-5px;
+	padding: 7px 10px;
+	border-radius: 5px;
+  border:none;
+  background-color: whitesmoke;
+  cursor: pointer;
+
+}
+
+ul.navtop a:hover{
+	background-color: #fffdd0;
+}
+
+ul.navtop a.selected{
+  background-color: #fffdd0;
+}
+
+
+.checked {
+  color: orange;
+}
+
+/*###################*/
+
+.container{
+
+  margin-left: 40px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+  border:1px 
+  solid black;
+  width:190px;
+  height:275px;
+  display: inline-block;
+  position:relative;
+}
+
+
+.image
+{
+  display: block;
+  opacity: 1;
+}
+.container:hover .image
+{
+  opacity: 0.3;
+  cursor: pointer;
+}
+.container:hover .read-btn
+{
+  opacity: 1;
+  cursor: pointer;
+}
+.container:hover .writer-name
+{
+
+  cursor: pointer;
+  position:absolute;
+  display: inline-block;
+}
+.container:hover .rated
+{
+  /*opacity: 0;*/
+  cursor: pointer;
+  visibility: hidden;
+}
+
+.rated
+{
+  opacity: 1;
+}
+
+.read-btn
+{
+	background-color: rgb(255, 82, 59);
+	margin-top: -38px;
+	text-align: center;
+	padding-top: 8px;
+	opacity: 0;
+  height: 30px;
+}
+
+.read-pdf-btn
+{
+	background-color: #fffdd0;
+	padding: 2px 26px;
+	border:none;
+}
+
+.writer-name
+{
+  background-color: rgb(255, 82, 59);
+  margin-top: 75px;
+  padding-top: 10px;
+  height: 100px;
+  width: 190px;
+  display: none;
+}
+
+.rating{
+  font-size: 14px;
+}
+
+.writer-font-size
+{
+  font-size: 13px;
+}
+
+
+

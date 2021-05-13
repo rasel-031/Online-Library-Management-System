@@ -1,0 +1,61 @@
+.click-me
+{
+	background-color:rgb(255, 82, 59);
+	margin-top: -35px;
+	text-align: center;
+	padding-top: 8px;
+	opacity: 0;
+	height: 30px;
+	position: absolute;
+	width: 190px;
+}
+
+.container-mag{
+
+	margin-left: 40px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	border:1px 
+	solid black;
+	width:190px;
+	height:275px;
+	display: inline-block;
+	position:relative;
+}
+
+.container-mag-discription{
+	background-color:#ffc2b3;
+	margin-top: -248px;
+	padding-top: 10px;
+	height: 221px;
+	width: 190px;
+	display: none;
+	margin-left: -10px;
+}
+
+
+
+.image-mag
+{
+	display: block;
+	opacity: 1;
+}
+.container-mag:hover .image-mag
+{
+	opacity: 0.3;
+	cursor: pointer;
+}
+
+
+.container-mag:hover .click-me
+{
+	opacity: 1;
+	cursor: pointer;
+}
+.container-mag:hover .container-mag-discription
+{
+	opacity: 0.7;
+	cursor: pointer;
+	position:absolute;
+	display: inline-block;
+}
